@@ -1,7 +1,7 @@
 {
-  "name": "react-native-grid",
+  "name": "@cookiex-react/native-layout",
   "version": "0.7.8",
-  "description": "React Native Grid",
+  "description": "CookieX React Native Layout Assistant",
   "main": "dist/index.js",
   "type": "dist/index.d.ts",
   "types": "dist/index.d.ts",
