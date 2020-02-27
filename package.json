@@ -11,8 +11,6 @@
     "./": "./dist/"
   },
   "scripts": {
-    "build": "rimraf dist types && tsc",
-    "git:push": "rimraf dist types && tsc && git add . && git commit -m \"Upload Version\" && git push origin master",
     "test": "jest"
   },
   "devDependencies": {
