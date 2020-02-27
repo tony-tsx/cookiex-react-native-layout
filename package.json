@@ -1,6 +1,6 @@
 {
   "name": "@cookiex-react/native-layout",
-  "version": "0.7.8",
+  "version": "0.7.9",
   "description": "CookieX React Native Layout Assistant",
   "main": "index.js",
   "types": "index.d.ts",
