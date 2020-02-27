@@ -2,12 +2,14 @@
   "name": "@cookiex-react/native-layout",
   "version": "0.7.8",
   "description": "CookieX React Native Layout Assistant",
-  "main": "dist/index.js",
-  "type": "dist/index.d.ts",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "repository": "https://github.com/tony-tsx/cookiex-react-native-layout.git",
   "author": "tony-tsx <tony.js@zoho.eu>",
   "license": "MIT",
+  "exports": {
+    "./": "./dist/"
+  },
   "scripts": {
     "build": "rimraf dist types && tsc",
     "git:push": "rimraf dist types && tsc && git add . && git commit -m \"Upload Version\" && git push origin master",
